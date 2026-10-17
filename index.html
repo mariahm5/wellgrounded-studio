@@ -242,6 +242,14 @@ footer{align-items:flex-start} footer details{max-width:40em} footer summary{cur
 .flist details[open] summary::after{transform:rotate(45deg)}
 .flist details p{padding:0 0 24px;max-width:58ch;font:400 15.5px/1.6 var(--text)}
 .flist summary:focus-visible{outline:2px solid var(--clay);outline-offset:4px}
+.voice{padding-top:clamp(70px,9vw,140px);padding-bottom:clamp(70px,9vw,140px)}
+.voice figure{margin:0 auto;max-width:1100px}
+.voice blockquote{margin:0}
+.voice blockquote p{font:300 clamp(28px,3.4vw,54px)/1.18 var(--display);letter-spacing:-.015em;text-wrap:balance}
+.voice blockquote p::before{content:"“";margin-left:-.42em;padding-right:.04em}
+.voice blockquote p::after{content:"”"}
+.voice blockquote b{font-weight:400}
+.voice figcaption{margin-top:28px;font:400 13.5px/1.5 var(--text)}
 .sheet .intro p,.cside p,.prenatal .body,.about .body,.statement p.sub,.patterns .head p{max-width:52ch}
 section[id]{scroll-margin-top:80px}
 .motion .reveal-img{clip-path:inset(100% 0 0 0)}
@@ -269,6 +277,7 @@ section[id]{scroll-margin-top:80px}
   .plist li{grid-template-columns:1fr} .plist h3{grid-row:auto}
   .sheet .intro,.rows li,.classes .rows li,.after,.contact .in,.cgrid,.fgrid{grid-template-columns:1fr}
   .faq h2{position:relative;top:0}
+  .voice blockquote p::before{margin-left:0}
   .cside{position:relative;top:0} .classes .rows .meta{grid-column:1}
   .rows li{gap:10px}
   .prenatal{padding:0 0 clamp(80px,12vw,120px)} .prenatal > div:last-child{padding:56px var(--pad) 0}
@@ -339,6 +348,13 @@ section[id]{scroll-margin-top:80px}
       <li class="ghost"></li><li class="ghost"></li><li class="ghost"></li><li class="ghost"></li>
     </ol>
     <p class="snote rv">Booking opens the studio's own page, where you can reserve a spot or join the waitlist. For private sessions, workshops or a class for your school or workplace, <a class="u" href="#book">write to Mariah</a>.</p>
+  </section>
+
+  <section class="sheet voice" aria-label="What a student said">
+    <figure class="rv">
+      <blockquote><p>This class is not only a lot of fun, but really is a nice challenge to those practicing yoga. Mariah <b>pushes you to try hard without overwhelming you</b> or making you feel uncomfortable.</p></blockquote>
+      <figcaption>A student in Yoga with Weights, June 2026</figcaption>
+    </figure>
   </section>
 
   <section class="patterns" aria-labelledby="h-pat">
