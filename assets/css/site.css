@@ -37,6 +37,9 @@ b{font-weight:400}
 .nav[data-tone=light]{color:var(--oat)} .nav.solid[data-tone=light]{background:rgba(74,71,67,.9)}
 
 .mark{font:400 15px/1 var(--display);letter-spacing:.32em;text-transform:uppercase;text-decoration:none;white-space:nowrap}
+
+.nav-brand{display:grid;justify-items:start;gap:8px}
+.nav-brand .book-dot{font:400 12px/1 var(--text)}
 .nav ul{list-style:none;margin:0;padding:0;display:flex;gap:clamp(16px,2.4vw,40px);font:400 13.5px/1 var(--text);letter-spacing:.01em}
 .nav a{text-decoration:none;position:relative;padding:4px 0}
 .nav ul a::after,.u::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .6s var(--ease)}
@@ -172,7 +175,7 @@ b{font-weight:400}
 .contact{position:relative;min-height:78vh;min-height:78svh;display:flex;align-items:flex-end;overflow:hidden}
 .contact > .ph{position:absolute;inset:-8% 0;height:116%}
 .contact::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(246,241,233,0) 30%,rgba(246,241,233,.72) 62%,rgba(246,241,233,.92) 100%)}
-.contact .in{position:relative;z-index:1;padding:var(--pad) var(--pad) clamp(40px,5vw,72px);width:100%;display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(20px,3vw,40px);align-items:end}
+.contact .in{position:relative;z-index:1;padding:var(--pad) var(--pad) clamp(40px,5vw,72px);width:100%;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:var(--pad);align-items:end}
 .contact h2{font:300 clamp(72px,10.6vw,184px)/.86 var(--display);letter-spacing:-.045em}
 .contact .c{display:grid;gap:20px;max-width:26em;font:300 clamp(16px,1.2vw,18px)/1.6 var(--text)}
 .contact .mail{font:300 clamp(24px,2.2vw,34px)/1.1 var(--display);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:6px;justify-self:start}
