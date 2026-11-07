@@ -243,9 +243,12 @@ section[id]{scroll-margin-top:80px}
   .sheet{padding:72px 20px} .statement{padding:72px 20px 64px}
   .contact{min-height:54svh}
   .nav{padding:18px 20px}
-  .nav ul{display:none;position:fixed;inset:0;background:var(--sand);color:var(--ink);flex-direction:column;justify-content:center;padding:40px;gap:24px;font:300 42px/1 var(--display)}
+  .nav-brand{display:grid;gap:8px}
+  .nav-sub{max-width:calc(100vw - 40px);gap:16px;overflow-x:auto;scrollbar-width:none}
+  .nav-sub::-webkit-scrollbar{display:none}
+  .nav ul{display:flex;position:static;inset:auto;background:none;color:inherit;flex-direction:row;justify-content:flex-start;padding:0;gap:16px;font:400 12px/1 var(--text);white-space:nowrap}
   .nav.open ul{display:flex}
-  .menu-btn{display:block;background:none;border:0;font:400 14px/1 var(--text);color:inherit;padding:6px 0;z-index:2;position:relative;cursor:pointer}
+  .menu-btn{display:none}
   .hero{--split:0px;height:auto;min-height:0;display:flex;flex-direction:column}
   .hero .shot{position:relative;left:0;top:0;height:54svh}
   .hero .over{display:none}
