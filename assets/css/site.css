@@ -143,7 +143,7 @@ b{font-weight:400}
 .method .frame::after{content:"";position:absolute;inset:4px;pointer-events:none;background:linear-gradient(118deg,rgba(255,252,246,0) 28%,rgba(255,252,246,.14) 40%,rgba(255,252,246,.04) 47%,rgba(255,252,246,0) 58%);background-size:220% 100%;background-position:var(--glare,70%) 0;transition:background-position 1.4s var(--ease)}
 .method .frame:hover::after{--glare:30%}
 .mat{background:#F7F2EA;padding:clamp(12px,1.6vw,26px)}
-.method{color:var(--ink)}
+.method{color:var(--ink);padding-top:clamp(72px,8vw,128px)}
 .method .intro p{color:var(--ink)}
 .method .prints{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,3.4vw,60px);align-items:start}
 .method .print{margin:0}
@@ -269,6 +269,7 @@ section[id]{scroll-margin-top:80px}
   .prenatal{padding:0 0 clamp(80px,12vw,120px)} .prenatal > div:last-child{padding:56px var(--pad) 0}
   .prenatal .inset{right:4%;width:46%}
   .about{padding:0 0 clamp(80px,12vw,120px)} .about > div{padding:44px var(--pad) 0}
+  .method{padding-top:48px}
   .method .prints{grid-template-columns:1fr} .method .print:nth-child(n){margin-top:0}
   .about figure{max-width:none}
   .sigtext{font-size:min(11vw,52px);white-space:normal;line-height:1.25;padding-right:0}
