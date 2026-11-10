@@ -63,7 +63,7 @@ b{font-weight:400}
 .hero h1 .w{display:inline-block}
 .hero .over{position:absolute;inset:0;overflow:hidden;clip-path:inset(0 0 0 var(--split));pointer-events:none;color:var(--oat)}
 .hero .lede{position:absolute;left:var(--pad);bottom:46px;max-width:30em;display:grid;gap:24px}
-.hero .lede p{font:300 clamp(17px,1.35vw,21px)/1.45 var(--text)}
+.hero .lede p{font:300 clamp(15px,1.1vw,18px)/1.45 var(--text)}
 .hero .lede p b{font-weight:400}
 .hero .cap{position:absolute;right:var(--pad);bottom:42px;color:var(--ink);font:400 13.5px/1.45 var(--text);text-align:right;max-width:19em}
 
