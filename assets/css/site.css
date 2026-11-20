@@ -48,8 +48,10 @@ b{font-weight:400}
 .nav ul a:hover::after,.u:hover::after,.nav ul a:focus-visible::after{transform:scaleX(1);transform-origin:left}
 .book-dot::before{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--clay);margin-right:9px;vertical-align:2px}
 .menu-btn{display:none}
-.link{display:inline-flex;gap:.7em;align-items:baseline;font:400 14.5px/1 var(--text);text-decoration:none;padding-bottom:7px;border-bottom:1px solid currentColor;transition:gap .6s var(--ease)}
+.link{display:inline-flex;gap:.7em;align-items:baseline;font:400 14.5px/1 var(--text);text-decoration:none;padding-bottom:7px;border-bottom:1px solid currentColor;transition:gap .6s var(--ease),transform .6s var(--ease)}
 .link:hover{gap:1.1em}
+.cside .link{transition:transform .6s var(--ease)}
+.cside .link:hover{gap:.7em;transform:translateX(6px)}
 .link span{font-weight:300;opacity:.75}
 .u{position:relative;text-decoration:none}
 
